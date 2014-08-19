@@ -1,0 +1,64 @@
+.sticker {
+	position: absolute !important;
+	width: 100px;
+	height: 100px;
+
+	background-color: #fffdd0;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+
+	font-size: 12px;
+	text-align: center;
+	color: #222;
+	cursor: move;
+}
+
+.wrapper {
+	display: inline-block;
+	border: 1px solid #eee;
+	border-radius: 5px;
+}
+
+#stickersBoard {
+	position: relative;
+	width: 500px;
+	height: 500px;
+	background-color: #fff;
+	overflow: hidden;
+}
+
+.sticker-title, .sticker-text {
+	padding: 5px;
+	width: 90px;
+	cursor: pointer;
+	display: inline-block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.sticker-title {
+	font-weight: bold;
+	white-space: nowrap;
+}
+.sticker-text {
+	max-height: 65px;
+	margin-top: 0;
+	padding-top: 0;
+}
+.sticker-text-editable {
+	height: 65px;
+	overflow: hidden;
+	resize: none;
+}
+.sticker-title-editable {
+	margin-top: 1px;
+	height: 20px;
+}
+
+.on-top {
+	z-index: 666 !important;
+}
+
+.sticker-title-editable, .sticker-text-editable {
+	display: none;
+	width: 90px;
+}
