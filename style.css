@@ -45,12 +45,12 @@
 	margin-top: 0;
 	padding-top: 0;
 }
-.sticker-text-editable {
+.sticker-text-edit {
 	height: 65px;
 	overflow: hidden;
 	resize: none;
 }
-.sticker-title-editable {
+.sticker-title-edit {
 	margin-top: 1px;
 	height: 20px;
 }
@@ -59,7 +59,7 @@
 	z-index: 666 !important;
 }
 
-.sticker-title-editable, .sticker-text-editable {
+.sticker-title-edit, .sticker-text-edit {
 	display: none;
 	width: 90px;
 }

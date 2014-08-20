@@ -43,7 +43,7 @@ $(function() {
             $('#stickersBoard').addClass('editing');
 
             this.$el.find('.sticker-'+type).hide();
-            this.$el.find('.sticker-'+type+'-editable')
+            this.$el.find('.sticker-'+type+'-edit')
                 .show().trigger('focus').trigger('select')
                 .one('blur', function(e) {
                     var valToSet = $(this).val();
