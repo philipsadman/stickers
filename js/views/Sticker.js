@@ -62,7 +62,6 @@ $(function() {
             this.$el
                 .css('top', this.model.get('top'))
                 .css('left', this.model.get('left'))
-                .prop('title', this.model.get('text'))
                 .html(template);
 
             return this;
