@@ -25,6 +25,7 @@
 	height: 500px;
 	background-color: #fff;
 	overflow: hidden;
+	border-radius: 5px;
 }
 
 .sticker-title, .sticker-text {
